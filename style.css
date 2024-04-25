@@ -1,0 +1,76 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   }
+@font-face{
+    font-family: 'the futurist';
+    src: url('the_futurist/The\ Futurist.otf') format('OpenType');
+}
+body{
+    font-family: 'the futurist';
+    background-color: #211A44;
+    background-size: contain;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3{
+    text-align:center;
+    color:#BE9CC7;
+}
+p{
+    color:#BE9CC7;
+    text-align: left;
+    font-size:x-large;
+}
+.grid {
+    display:grid;
+    grid-template-columns: 5fr;
+    row-gap: 100px;
+    width: 1864px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.grid__item{
+    width: auto;
+    height:auto;
+}
+.container{
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0);
+    transition: box-shadow .3s;
+    display:grid;
+    grid-template-columns: 0fr 3fr;
+    background: rgb(87,23,116);
+    background: linear-gradient(0deg, rgba(87,23,116,0.6) 0%, rgba(29,45,146,0.6) 100%);
+}
+.container:hover{
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+}
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+
+a:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+footer {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+   }
+HeaderCenter{
+    width : auto;
+    display: block;
+    margin: auto;
+    padding: 80px;
+}
+
+.specialgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minimax(300px, 1fr));
+    grid-gap: 10px;
+    justify-content: center;
+}
