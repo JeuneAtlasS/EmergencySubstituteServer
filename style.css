@@ -5,7 +5,7 @@ header {
    }
 @font-face {
     font-family: 'Hacker Noon';
-    src: url('Font/Hacker\Noon\V2.otf') format('TrueType');
+    src: url('Font/HackerNoonV2-Regular.otf') format('TrueType');
 }
 body {
     font-family: 'Hacker Noon';
