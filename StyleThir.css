@@ -5,12 +5,12 @@
 }
 
 @font-face {
-    font-family: 'the futurist';
-    src: url('the_futurist/The\ Futurist.otf') format('OpenType');
+    font-family: 'Hacker Noon';
+    src: url('Font/Harker_Noon.otf') format('OpenType');
 }
 
 body {
-    font-family: 'the futurist';
+    font-family: 'Hacker Noon';
     background: #211A44;
     background-size: contain;
     padding: 50px;
