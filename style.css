@@ -5,7 +5,7 @@ header {
    }
 @font-face {
     font-family: 'Exo';
-    src: url('Font/Exo\Space\DEMO.ttf') format('TrueType');
+    src: url('Font/ExoSpaceDEMO.ttf') format('TrueType');
 }
 body {
     font-family: 'Exo';
