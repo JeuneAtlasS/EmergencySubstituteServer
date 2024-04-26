@@ -3,12 +3,12 @@ header {
     justify-content: center;
     align-items:center;
    }
-@font-face{
-    font-family: 'the futurist';
-    src: url('the_futurist/The\ Futurist.otf') format('OpenType');
+@font-face {
+    font-family: 'Hacker Noon';
+    src: url('Font/Hacker\Noon\V2.otf') format('TrueType');
 }
-body{
-    font-family: 'the futurist';
+body {
+    font-family: 'Hacker Noon';
     background-color: #211A44;
     background-size: contain;
     padding: 0;
