@@ -5,12 +5,12 @@
 }
 
 @font-face {
-    font-family: 'Hacker Noon';
-    src: url('Font/HackerNoonV2-Regular.otf') format('TrueType');
+    font-family: 'Exo';
+    src: url('Font/ExoSpaceDEMO.ttf') format('TrueType');
 }
 
 body {
-    font-family: 'Hacker Noon';
+    font-family: 'Exo';
     background: #211A44;
     background-size: contain;
     padding: 50px;
