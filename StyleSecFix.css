@@ -1,0 +1,135 @@
+﻿header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'Exo';
+    src: url('Font/ExoSpaceDEMO.ttf') format('TrueType');
+}
+
+body {
+    font-family: 'Exo';
+    background: linear-gradient(180deg, #5C5792 70%, #211A44 30%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #BE9CC7;
+    font-size: xxx-large;
+}
+
+h4 {
+    text-align: center;
+    color: #BE9CC7;
+    font-size: xxx-large;
+}
+
+p {
+    color: #BE9CC7;
+    text-align: left;
+    font-size: x-large;
+}
+
+.specialgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minimax(300px, 1fr));
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.one {
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.two {
+    grid-column: 3/3;
+    grid-row: 1/3;
+}
+
+.three {
+    grid-column: 3/3;
+    grid-row: 2/3;
+}
+
+four {
+    justify-content: center;
+}
+
+.travelgrid {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 100px 100px;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: xx-large;
+}
+
+.crewgrid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px;
+    gap: 350px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.infogrid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px;
+    gap: 200px;
+    justify-content: center;
+
+    .box {
+        width: 400px;
+        height: 400px;
+        font-size: xx-large;
+    }
+
+    a:link {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: white;
+        text-decoration: none;
+    }
+
+    .card {
+        margin-left: 375px;
+        margin-right: 375px;
+        width: 100%;
+        max-width: 256px;
+        height: 256px;
+        border-radius: 8px;
+        transition: .3s;
+    }
+
+        .card:hover {
+            transform: scale(1.1, 1.1);
+        }
+
+    footer {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    DocTech {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minimax(300px, 1fr));
+        grid-gap: 1000px;
+        justify-content: center;
+    }
