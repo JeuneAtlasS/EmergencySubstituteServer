@@ -71,6 +71,12 @@ four {
     margin-top: 200px;
     margin-bottom: 200px;
 }
+.infogrid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px;
+    gap: 200px;
+    justify-content: center;
 .box {
     width: 400px;
     height: 400px;
