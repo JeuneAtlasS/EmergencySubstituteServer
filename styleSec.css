@@ -9,7 +9,7 @@ header {
 }
 body {
     font-family: 'Exo';
-    background:#211A44;
+    background: linear-gradient(#211A44 0% 10%, #BE9CC7 10% 70%, #ff0000 70% 100%;
     padding: 0;
     margin: 0;
     text-align: center;
