@@ -11,8 +11,8 @@
 
 body {
     font-family: 'Exo';
-    background: #211A44 15%, #5C5792 70%, #211A44 15%;
-    padding: 0;
+    background: border-box #211A44 15%, #5C5792 70%, #211A44 15%;
+    ) padding: 0;
     margin: 0;
     text-align: center;
 }
