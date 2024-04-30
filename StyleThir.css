@@ -34,6 +34,7 @@ footer {
     display: flex;
     justify-content: right;
     align-items: center;
+    text-align:center;
 }
 .grid__item {
     width: auto;
@@ -47,3 +48,4 @@ footer {
     grid-template-columns: 0fr 4fr;
     background: rgb(87,23,116);
     background: linear-gradient(0deg, rgba(87,23,116,0.6) 0%, rgba(29,45,146,0.6) 100%);
+}
