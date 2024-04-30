@@ -11,7 +11,7 @@ header {
 
 @media screen and (max-width: 640px) {
     body {
-        font-size: 14px; /* Réduire la taille de la police pour les écrans plus petits */
+        font-size: initial; /* Réduire la taille de la police pour les écrans plus petits */
     }
 }
 
