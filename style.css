@@ -1,97 +1,96 @@
+/* Styles pour le header */
 header {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* Définition de la police de caractères */
 @font-face {
     font-family: 'Exo';
     src: url('Font/ExoSpaceDEMO.ttf') format('TrueType');
 }
 
+/* Styles pour le corps de la page */
 body {
     font-family: 'Exo';
     background-color: #211A44;
-    background-size: contain;
     padding: 0;
     margin: 0;
-    width: auto;
-    height: auto
 }
 
+/* Styles pour les titres */
 h1, h2, h3 {
     text-align: center;
     color: #BE9CC7;
 }
 
+/* Styles pour les paragraphes */
 p {
     color: #BE9CC7;
-    text-align: left;
-    font-size: 24px;
+    text-align: justify;
+    font-size: 18px;
+    padding: 10px;
 }
 
+/* Styles pour la grille principale */
 .grid {
     display: grid;
-    grid-template-columns: 5fr;
-    row-gap: 100px;
-    width: 1864px;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
 }
 
+/* Styles pour les éléments de la grille */
 .grid__item {
-    width: auto;
-    height: auto;
+    width: 100%;
 }
 
+/* Styles pour le conteneur principal */
 .container {
-    box-shadow: 0 0 50px rgba(255, 255, 255, 0);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0);
     transition: box-shadow .3s;
-    display: grid;
-    grid-template-columns: 0fr 3fr;
     background: rgb(87,23,116);
     background: linear-gradient(0deg, rgba(87,23,116,0.6) 0%, rgba(29,45,146,0.6) 100%);
     text-align: center;
-    width: auto;
-    height: auto;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
+    /* Effet au survol du conteneur */
     .container:hover {
-        box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
     }
 
+/* Styles pour les liens non visités */
 a:link {
     color: white;
     text-decoration: none;
 }
 
+/* Styles pour les liens visités */
 a:visited {
     color: white;
     text-decoration: none;
 }
 
+/* Styles pour le footer */
 footer {
     display: flex;
     justify-content: right;
     align-items: center;
 }
 
-HeaderCenter {
-    width: auto;
-    display: block;
-    margin: auto;
-    padding: 80px;
+/* Styles pour le centre du header */
+.HeaderCenter {
+    width: 100%;
+    padding: 20px;
 }
 
+/* Styles pour la grille spéciale */
 .specialgrid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minimax(300px, 1fr));
-    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
     justify-content: center;
-}
-
-.justify {
-    justify-content: center;
-    text-align: center;
-    margin: 4px;
 }
