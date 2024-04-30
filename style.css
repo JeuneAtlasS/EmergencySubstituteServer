@@ -11,7 +11,7 @@ header {
     src: url('Font/ExoSpaceDEMO.ttf') format('TrueType');
 }
 @media screen and (max-width: 900px) {
-         .container {
+         .grid__item {
             width: 50%;
          }
 /* Styles pour le corps de la page */
