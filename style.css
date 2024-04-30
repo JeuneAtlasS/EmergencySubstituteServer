@@ -45,8 +45,8 @@ p {
 }
 
 .grid_item {
-    width: auto;
-    height: auto;
+    width: fit-content;
+    height: fit-content;
 }
 
 .container {
@@ -59,18 +59,6 @@ p {
     width: fit-content;
     height: fit-content;
 }
-
-.img{
-    width: 570px;
-}
-@media (max-width: 570px){
-    .img {
-        width: 100%;
-    }
-}
-    .container:hover {
-        box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
-    }
 
 a:link, a:visited {
     color: white;
