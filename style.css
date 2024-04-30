@@ -11,7 +11,7 @@ header {
 
 @media screen and (max-width: 640px) {
     body {
-        font-size: smaller; /* Réduire la taille de la police pour les écrans plus petits */
+        font-size: medium; /* Réduire la taille de la police pour les écrans plus petits */
     }
 }
 
@@ -32,8 +32,7 @@ h1, h2, h3 {
 
 p {
     color: #BE9CC7;
-    text-align: left;
-    font-size: large; /* Réduire la taille de la police de 2px */
+    text-align: left; /* Réduire la taille de la police de 2px */
 }
 
 .grid {
