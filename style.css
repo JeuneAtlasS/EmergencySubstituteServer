@@ -9,10 +9,6 @@ header {
     src: url('Font/ExoSpaceDEMO.ttf') format('TrueType');
 }
 
-@media-phone and (min-width:640px) {
-    font-size: 21px
-}
-
 body {
     font-family: 'Exo';
     background-color: #211A44;
@@ -31,7 +27,7 @@ h1, h2, h3 {
 p {
     color: #BE9CC7;
     text-align: left;
-    font-size: x-large;
+    font-size: 16px;
     inline-size: auto;
 }
 
