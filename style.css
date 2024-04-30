@@ -45,6 +45,8 @@ p{
     background: rgb(87,23,116);
     background: linear-gradient(0deg, rgba(87,23,116,0.6) 0%, rgba(29,45,146,0.6) 100%);
     text-align:center;
+    width:auto;
+    height:auto;
 }
 .container:hover{
     box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
