@@ -32,6 +32,7 @@ p {
     color: #BE9CC7;
     text-align: left;
     font-size: x-large;
+    inline-size: auto;
 }
 
 .grid {
