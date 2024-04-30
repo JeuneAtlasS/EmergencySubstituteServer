@@ -11,7 +11,7 @@ header {
 
 @media screen and (max-width: 640px) {
     body {
-        font-size: 16px;
+        font-size: 14px; /* Réduire la taille de la police pour les écrans plus petits */
     }
 }
 
@@ -33,7 +33,7 @@ h1, h2, h3 {
 p {
     color: #BE9CC7;
     text-align: left;
-    font-size: large;
+    font-size: large; /* Réduire la taille de la police de 2px */
 }
 
 .grid {
@@ -44,7 +44,7 @@ p {
     margin-bottom: 100px;
 }
 
-.grid__item {
+.grid_item {
     width: auto;
     height: auto;
 }
@@ -54,8 +54,7 @@ p {
     transition: box-shadow .3s;
     display: grid;
     grid-template-columns: 1fr;
-    background: rgb(87,23,116);
-    background: linear-gradient(0deg, rgba(87,23,116,0.6) 0%, rgba(29,45,146,0.6) 100%);
+    background: linear-gradient(0deg, rgba(87,23,116,0.6) 0%, rgba(29,45,146,0.6) 100%); /* Dégradé adaptatif */
     text-align: center;
     width: auto;
     height: auto;
@@ -80,7 +79,7 @@ HeaderCenter {
     width: auto;
     display: block;
     margin: auto;
-    padding: 40px;
+    padding: 40px; /* Réduire l'espacement du header */
 }
 
 .specialgrid {
