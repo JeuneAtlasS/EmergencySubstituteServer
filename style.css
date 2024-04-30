@@ -56,9 +56,8 @@ p {
     grid-template-columns: 1fr;
     background: linear-gradient(0deg, rgba(87,23,116,0.6) 0%, rgba(29,45,146,0.6) 100%); /* Dégradé adaptatif */
     text-align: center;
-    text-size-adjust: none;
-    width: auto;
-    height: auto;
+    width: fit-content;
+    height: fit-content;
 }
 
 .img{
