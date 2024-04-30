@@ -11,7 +11,7 @@
 
 body {
     font-family: 'Exo';
-    background: linear-gradient(to top, #211A44 0, #211A44 50%, #BFA3C6 50%, #BFA3C6 80%, #211A44 80%, #211A44 100%);
+    background: linear-gradient(to bottom, #211A44 0, #211A44 5%, #BFA3C6 5%, #BFA3C6 80%, #211A44 80%, #211A44 100%);
     background-repeat: no-repeat;
     padding: 0;
     margin: 0;
