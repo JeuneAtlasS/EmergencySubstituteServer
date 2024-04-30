@@ -57,10 +57,10 @@ p {
     margin-bottom: 20px;
 }
 
-    /* Effet au survol du conteneur */
-    .container:hover {
-        box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-    }
+/* Effet au survol du conteneur */
+.container:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
 
 /* Styles pour les liens non visités */
 a:link {
