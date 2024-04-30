@@ -31,9 +31,10 @@ p{
     margin-top: 200px;
     margin-bottom: 200px;
 }
-.grid__item{
+.grid__item {
     width: auto;
-    height:auto;
+    height: auto;
+    text-align: center;
 }
 .container{
     box-shadow: 0 0 50px rgba(255, 255, 255, 0);
