@@ -1,102 +1,49 @@
-﻿/* Styles pour le header */
-header {
+﻿header {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Définition de la police de caractères */
 @font-face {
     font-family: 'Exo';
     src: url('Font/ExoSpaceDEMO.ttf') format('TrueType');
 }
 
-/* Styles pour le corps de la page */
 body {
     font-family: 'Exo';
-    background-color: #211A44;
-    padding: 0;
-    margin: 0;
+    background: #211A44;
+    background-size: contain;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
 
-/* Styles pour les titres */
 h1, h2, h3 {
     text-align: center;
     color: #BE9CC7;
+    font-size: xx-large;
 }
 
-/* Styles pour les paragraphes */
-.p {
+p {
     color: #BE9CC7;
-    text-align: justify;
-    font-size: 18px;
-    padding: 10px;
+    text-align: left;
+    font-size: x-large;
 }
 
-/* Styles pour la grille principale */
-.grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 20px;
-}
-
-/* Styles pour les éléments de la grille */
-.grid_item {
-    margin: auto;
-}
-
-/* Styles pour le conteneur principal */
-
-.container {
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0);
-    transition: box-shadow .3s;
-    background: rgb(87,23,116);
-    background: linear-gradient(0deg, rgba(87,23,116,0.6) 0%, rgba(29,45,146,0.6) 100%);
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-    .container img {
-        width: 100%;
-        height: auto;
-    }
-
-
-    /* Effet au survol du conteneur */
-    .container:hover {
-        box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-    }
-
-/* Styles pour les liens non visités */
-a:link {
-    color: white;
-    text-decoration: none;
-}
-
-/* Styles pour les liens visités */
-a:visited {
-    color: white;
-    text-decoration: none;
-}
-
-/* Styles pour le footer */
 footer {
     display: flex;
     justify-content: right;
     align-items: center;
 }
-
-/* Styles pour le centre du header */
-.HeaderCenter {
-    padding: 20px;
+.grid__item {
+    width: auto;
+    height: auto;
 }
 
-/* Styles pour la grille spéciale */
-.specialgrid {
+.container {
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0);
+    transition: box-shadow .3s;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 10px;
-    justify-content: center;
-}ound: linear-gradient(0deg, rgba(87,23,116,0.6) 0%, rgba(29,45,146,0.6) 100%);
+    grid-template-columns: 0fr 4fr;
+    background: rgb(87,23,116);
+    background: linear-gradient(0deg, rgba(87,23,116,0.6) 0%, rgba(29,45,146,0.6) 100%);
