@@ -10,7 +10,10 @@ header {
     font-family: 'Exo';
     src: url('Font/ExoSpaceDEMO.ttf') format('TrueType');
 }
-
+@media screen and (max-width: 900px) {
+         .container {
+            width: 50%;
+         }
 /* Styles pour le corps de la page */
 body {
     font-family: 'Exo';
@@ -26,7 +29,7 @@ h1, h2, h3 {
 }
 
 /* Styles pour les paragraphes */
-p {
+.p {
     color: #BE9CC7;
     text-align: justify;
     font-size: 18px;
