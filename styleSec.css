@@ -9,19 +9,19 @@
     src: url('Font/ExoSpaceDEMO.ttf') format('TrueType');
 }
 
+/* Styles pour le corps de la page */
 body {
     font-family: 'Exo';
     background: linear-gradient(to bottom, #211A44 0, #211A44 15%, #5C5792 15%, #5C5792 80%, #211A44 80%, #211A44 100%);
-    background-repeat: no-repeat;
     padding: 0;
     margin: 0;
     text-align: center;
 }
 
+/* Styles pour les titres */
 h1, h2, h3 {
     text-align: center;
     color: #BE9CC7;
-    font-size: xxx-large;
 }
 
 h4 {
@@ -30,16 +30,19 @@ h4 {
     font-size: xxx-large;
 }
 
-p {
+/* Styles pour les paragraphes */
+.p {
     color: #BE9CC7;
-    text-align: left;
-    font-size: x-large;
+    text-align: justify;
+    font-size: 18px;
+    padding: 10px;
 }
 
+/* Styles pour la grille spéciale */
 .specialgrid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minimax(300px, 1fr));
-    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
     justify-content: center;
 }
 
@@ -91,6 +94,7 @@ four {
     grid-template-rows: 200px 200px;
     gap: 200px;
     justify-content: center;
+}
 
     .box {
         width: 400px;
@@ -98,15 +102,17 @@ four {
         font-size: xx-large;
     }
 
-    a:link {
-        color: white;
-        text-decoration: none;
-    }
+/* Styles pour les liens non visités */
+a:link {
+    color: white;
+    text-decoration: none;
+}
 
-    a:visited {
-        color: white;
-        text-decoration: none;
-    }
+/* Styles pour les liens visités */
+a:visited {
+    color: white;
+    text-decoration: none;
+}
 
     .card {
         margin-left: 375px;
@@ -122,11 +128,12 @@ four {
             transform: scale(1.1, 1.1);
         }
 
-    footer {
-        display: flex;
-        justify-content: right;
-        align-items: center;
-    }
+/* Styles pour le footer */
+footer {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
 
     DocTech {
         display: grid;
