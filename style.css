@@ -79,4 +79,5 @@ HeaderCenter{
 .justify{
     justify-content:center;
     text-align:center;
+    margin: 4px;
 }
