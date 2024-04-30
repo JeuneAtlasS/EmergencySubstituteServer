@@ -34,7 +34,6 @@ p{
 .grid__item {
     width: auto;
     height: auto;
-    text-align: center;
 }
 .container{
     box-shadow: 0 0 50px rgba(255, 255, 255, 0);
@@ -75,4 +74,9 @@ HeaderCenter{
     grid-template-columns: repeat(auto-fit, minimax(300px, 1fr));
     grid-gap: 10px;
     justify-content: center;
+}
+
+.justify{
+    justify-content:center;
+    text-align:center;
 }
