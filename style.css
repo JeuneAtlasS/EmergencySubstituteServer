@@ -42,12 +42,12 @@ h1, h2, h3 {
 }
 
 /* Styles pour les éléments de la grille */
-.grid__item {
+.grid_item {
     width: 100%;
 }
 
 /* Styles pour le conteneur principal */
-/*
+
     .container {
     box-shadow: 0 0 20px rgba(255, 255, 255, 0);
     transition: box-shadow .3s;
@@ -57,7 +57,7 @@ h1, h2, h3 {
     padding: 20px;
     margin-bottom: 20px;
 }
-*/
+
 
 
 /* Effet au survol du conteneur */
