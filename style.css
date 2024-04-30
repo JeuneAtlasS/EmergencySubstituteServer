@@ -9,12 +9,6 @@ header {
     src: url('Font/ExoSpaceDEMO.ttf') format('TrueType');
 }
 
-@media screen and (max-width: 640px) {
-    body {
-        font-size: 16px; 
-    }
-}
-
 body {
     font-family: 'Exo';
     background-color: #211A44;
