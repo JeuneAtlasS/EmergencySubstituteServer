@@ -1,12 +1,20 @@
 header {
     display: flex;
     justify-content: center;
-    align-items:center;
-   }
+    align-items: center;
+}
+
 @font-face {
     font-family: 'Exo';
     src: url('Font/ExoSpaceDEMO.ttf') format('TrueType');
 }
+
+@media screen and (max-width: 640px) {
+    body {
+        font-size: 16px;
+    }
+}
+
 body {
     font-family: 'Exo';
     background-color: #211A44;
@@ -14,74 +22,76 @@ body {
     padding: 0;
     margin: 0;
     width: auto;
-    height:auto
+    height: auto;
 }
-h1, h2, h3{
-    text-align:center;
-    color:#BE9CC7;
+
+h1, h2, h3 {
+    text-align: center;
+    color: #BE9CC7;
 }
-p{
-    color:#BE9CC7;
+
+p {
+    color: #BE9CC7;
     text-align: left;
-    font-size:x-large;
+    font-size: large;
 }
+
 .grid {
-    display:grid;
-    grid-template-columns: 5fr;
-    row-gap: 100px;
-    width: 1864px;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
+
 .grid__item {
     width: auto;
     height: auto;
 }
-.container{
+
+.container {
     box-shadow: 0 0 50px rgba(255, 255, 255, 0);
     transition: box-shadow .3s;
-    display:grid;
-    grid-template-columns: 0fr 3fr;
+    display: grid;
+    grid-template-columns: 1fr;
     background: rgb(87,23,116);
     background: linear-gradient(0deg, rgba(87,23,116,0.6) 0%, rgba(29,45,146,0.6) 100%);
-    text-align:center;
-    width:auto;
-    height:auto;
+    text-align: center;
+    width: auto;
+    height: auto;
 }
-.container:hover{
-    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
-}
-a:link {
-    color: white;
-    text-decoration: none;
-  }
 
-a:visited {
+    .container:hover {
+        box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+    }
+
+a:link, a:visited {
     color: white;
     text-decoration: none;
-  }
+}
 
 footer {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
-   }
-HeaderCenter{
-    width : auto;
+}
+
+HeaderCenter {
+    width: auto;
     display: block;
     margin: auto;
-    padding: 80px;
+    padding: 40px;
 }
 
 .specialgrid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minimax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 10px;
     justify-content: center;
 }
 
-.justify{
-    justify-content:center;
-    text-align:center;
+.justify {
+    justify-content: center;
+    text-align: center;
     margin: 4px;
 }
