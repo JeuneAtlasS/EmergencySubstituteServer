@@ -117,13 +117,16 @@ DocTech {
 
     .image + .image {
         margin-left: 10px;
+        justify-content: center;
     }
 
 .image-item {
     width: 100%;
     vertical-align: top;
+    justify-content: center;
 }
 
 .image-description {
     margin-top: 10px;
+    justify-content:center;
 }
