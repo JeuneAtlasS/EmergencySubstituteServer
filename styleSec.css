@@ -105,3 +105,24 @@ DocTech {
     justify-content: center;
 }
 /*------------------------------------------------------------*/
+.images {
+    display: flex;
+}
+
+.image {
+    margin: 0;
+    flex: 1;
+}
+
+    .image + .image {
+        margin-left: 10px;
+    }
+
+.image-item {
+    width: 100%;
+    vertical-align: top;
+}
+
+.image-description {
+    margin-top: 10px;
+}
