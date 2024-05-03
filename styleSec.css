@@ -108,6 +108,7 @@ DocTech {
 .images {
     display: flex;
     color: #BE9CC7;
+    justify-content: center;
 }
 
 .image {
