@@ -77,8 +77,7 @@ h1, h2, h3 {
     justify-content: center;
     align-items: center;
     justify-items: center;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    margin: auto;
 }
 
 .infogrid {
@@ -101,11 +100,7 @@ a:link {
     text-decoration: none;
 }
     .card {
-        margin-left: 375px;
-        margin-right: 375px;
         width: 100%;
-        max-width: 256px;
-        height: 256px;
         border-radius: 8px;
         transition: .3s;
     }
@@ -127,81 +122,3 @@ footer {
         justify-content: center;
     }
 /*------------------------------------------------------------*/
-/* Styles pour le corps de la page */
-body {
-    font-family: 'Exo';
-    background-color: #211A44;
-    padding: 0;
-    margin: 0;
-}
-
-/* Styles pour les titres */
-h1, h2, h3 {
-    text-align: center;
-    color: #BE9CC7;
-}
-
-/* Styles pour les paragraphes */
-.p {
-    color: #BE9CC7;
-    text-align: justify;
-    font-size: 18px;
-    padding: 10px;
-}
-
-/* Styles pour la grille principale */
-.grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 20px;
-}
-
-/* Styles pour les éléments de la grille */
-.grid_item {
-    margin: auto;
-}
-
-/* Styles pour le conteneur principal */
-
-.container {
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0);
-    transition: box-shadow .3s;
-    background: rgb(87,23,116);
-    background: linear-gradient(0deg, rgba(87,23,116,0.6) 0%, rgba(29,45,146,0.6) 100%);
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-    .container img {
-        width: 100%;
-        height: auto;
-    }
-
-
-    /* Effet au survol du conteneur */
-    .container:hover {
-        box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-    }
-
-/* Styles pour les liens non visités */
-a:link {
-    color: white;
-    text-decoration: none;
-}
-
-/* Styles pour les liens visités */
-a:visited {
-    color: white;
-    text-decoration: none;
-}
-
-
-/* Styles pour la grille spéciale */
-.specialgrid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 10px;
-    justify-content: center;
-}
