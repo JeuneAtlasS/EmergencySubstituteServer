@@ -109,6 +109,7 @@ DocTech {
     display: flex;
     color: #BE9CC7;
     text-align: center;
+    margin: 5px;
 }
 
 .image {
