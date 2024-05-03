@@ -33,13 +33,7 @@ h1, h2, h3 {
     padding: 10px;
 }
 
-/* Styles pour la grille principale */
-.grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 20px;
-}
+
 
 /* Styles pour les éléments de la grille */
 .grid_item {
