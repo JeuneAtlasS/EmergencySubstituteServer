@@ -97,7 +97,7 @@ h1, h2, h3 {
 /* Styles pour le footer */
 footer {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
 }
 DocTech {
