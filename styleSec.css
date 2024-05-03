@@ -60,8 +60,8 @@ h1, h2, h3 {
 
 .travelgrid {
     display: grid;
-    /*grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 100px 100px;*/
+    /*grid-template-columns: 400px 400px 400px;*/
+    grid-template-rows: 100px 100px;
     gap: 100px;
     justify-content: center;
     font-size: xx-large;
