@@ -68,16 +68,20 @@ h1, h2, h3 {
     margin-bottom: 100px;
     font-size: xx-large;
 }
-
-.crewgrid {
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 300px 300px;
-    gap: 350px;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
+/* Styles pour les éléments de la grille */
+.grid_item {
     margin: auto;
+}
+
+/* Styles pour le conteneur principal */
+.container {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0);
+    transition: box-shadow .3s;
+    background: rgb(87,23,116);
+    background: linear-gradient(0deg, rgba(87,23,116,0.6) 0%, rgba(29,45,146,0.6) 100%);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 .infogrid {
